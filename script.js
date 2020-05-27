@@ -17,7 +17,7 @@ function computerSelection() {
 // define gameplay and score
 function playRound(playerPlay, computerPlay) {
     if (computerPlay == playerPlay) {
-        gameResultDisplay.textContent = "you tied!";
+        gameResultDisplay.textContent = "we tied!";
     }else if (computerPlay == 'paper' && playerPlay == 'rock') {
         gameResultDisplay.textContent = "i played paper, you lost";
     }else if (computerPlay == 'rock' && playerPlay == 'paper') {
